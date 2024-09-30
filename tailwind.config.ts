@@ -8,13 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation:{
+        vibrate: "vibrate 20s linear infinite",
+        popin: "popin 2s ease-in-out"
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
       fontFamily: {
         kanit: ["Kanit"]
-      }
+      },
     },
   },
   plugins: [],
