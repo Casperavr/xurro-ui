@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       animation:{
         vibrate: "vibrate 20s linear infinite",
-        popin: "popin 2s ease-in-out"
+        popin: "popin 1.3s ease-in-out"
       },
       colors: {
         background: "var(--background)",
