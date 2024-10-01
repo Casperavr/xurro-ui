@@ -1,6 +1,6 @@
 "use client"
 
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { useState } from "react";
 import Swipe from "react-easy-swipe";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
@@ -13,7 +13,22 @@ import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
  * @param images - Array of images with src and alt attributes
  * @returns React component
  */
-export default function Carousel({ images }:any) {
+
+
+type Image = {
+    title: string,
+    id: number,
+    index: number,
+    src: StaticImageData,
+    alt: string,
+}
+
+type CarouselProps = {
+    images: Image[]
+}
+
+
+export default function Carousel({ images }:CarouselProps) {
   const [currentSlide, setCurrentSlide] = useState<number>(0);
 
 
@@ -40,13 +55,12 @@ export default function Carousel({ images }:any) {
           onSwipeRight={handlePrevSlide}
           className="relative z-10 w-full h-full"
         >
-          {images && images.map((image:any, index:any) => {
+          {images && images.map((image:Image, index:number) => {
             if (index === currentSlide) {
               return (
-                <div className="h-full">
+                <div key={image.id} className="h-full">
                     <h1 className="relative md:inset-x-1/3 md:bottom-12 z-50 text-xl">{image.title}</h1>
                     <Image
-                    key={image.id}
                     src={image.src}
                     layout="fill"
                     objectFit="contain"
@@ -67,7 +81,7 @@ export default function Carousel({ images }:any) {
       />
 
       <div className="relative flex justify-center p-2">
-        {images && images.map((_:any, index:any) => {
+        {images && images.map((_, index:number) => {
           return (
             <div
               className={

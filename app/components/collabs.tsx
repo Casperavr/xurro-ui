@@ -1,8 +1,5 @@
 import Carousel from "./carousel";
 
-import rave1 from "../../public/rave-background.webp";
-import rave2 from "../../public/rave-background2.jpg";
-import rave3 from "../../public/rave-background6.webp";
 import binnnenstad from "../../public/debinnenstad.webp";
 import ittw from "../../public/ITTW.webp";
 
