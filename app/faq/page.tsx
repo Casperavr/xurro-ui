@@ -1,3 +1,12 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "XURRO | FAQ",
+    description: "FAQ",
+  };
+
+
+
 export default function FaqPage() {
     return (
         <>

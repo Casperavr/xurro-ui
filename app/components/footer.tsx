@@ -15,7 +15,7 @@ export default function Footer() {
         <>
             <div className="h-1/2 px-6 py-3 md:px-[10%] w-full flex flex-col md:flex-row justify-between items-start bg-black">
 
-                <div className="w-full h-1/2 md:w-1/2 md:h-full font-semibold">
+                <div className="w-full h-1/2 md:w-1/2 md:h-full font-semibold mt-12">
                     <h1 className="text-sm mb-6">CONTACT</h1>
                     <p className="text-xs h-6">kvk: 95084614</p>
                     <div className="flex flex-col">
@@ -44,9 +44,10 @@ export default function Footer() {
                 </div>
 
 
-                <div className="w-full h-1/2 md:w-1/2 md:h-full font-semibold">
+                <div className="w-full h-1/2 md:w-1/2 md:h-full font-semibold mt-12">
                     <h1 className="text-sm mb-6 md:text-end">PAGES</h1>
                     <div className="flex flex-col md:justify-end">
+                        <Link className="text-sm underline md:text-end text-xs" href={"/"}>HOME</Link>
                         <Link className="text-sm underline md:text-end text-xs" href={"/product"}>PRODUCT</Link>
                         <Link className="text-sm underline md:text-end text-xs" href={"/events"}>EVENTS</Link>
                         <Link className="text-sm underline md:text-end text-xs" href={"/about"}>ABOUT US</Link>

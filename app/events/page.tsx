@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import CollabComponent from "../components/collabs";
 
 export const metadata: Metadata = {
     title: "XURRO | Events",
@@ -25,6 +26,12 @@ export default function EventsPage() {
                     </div>
                 </div>
 
+            </div>
+
+            <div className="h-1/2 md:px-[2%] mx-auto py-3 bg-[#111]">
+                <h1 className="text-sm mb-6 font-semibold px-6 md:px-[8%]">COLLABS</h1>
+
+                <CollabComponent/>
             </div>
 
             <div className="flex w-full h-[50vh] bg-center bg-no-repeat object-cover opacity-60">

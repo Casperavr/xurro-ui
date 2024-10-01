@@ -1,4 +1,14 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "XURRO | About us",
+    description: "About us",
+  };
+
+
+
 export default function AboutPage () {
+    
     return(
         <>
             <div className="mt-36 px-6 md:px-[10%]">
