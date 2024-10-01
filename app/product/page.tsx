@@ -38,7 +38,7 @@ export default function ProductPage () {
             </div>
 
             <div className="inset-0 w-full h-1/2 bg-center bg-no-repeat object-cover opacity-60">
-                <img src="../rave-background.jpeg" alt="Homepage background image of rave" className="overflow-hidden object-cover object-center h-full w-full" />
+                <img src="../rave-background.webp" alt="Homepage background image of rave" className="overflow-hidden object-cover object-center h-full w-full" />
             </div>
         </>
     )

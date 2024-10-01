@@ -9,7 +9,7 @@ export default function Header() {
     };
     return (
         <>
-            <nav className="pointer-events-auto fixed top-12 z-10 flex h-12 max-h-12 w-full items-center justify-between px-6 py-1 md:px-[10%] bg-black bg-opacity-50"> {/* bg-black bg-opacity-10 */}
+            <nav className="pointer-events-auto fixed z-10 flex h-10 max-h-12 w-full items-center justify-between px-6 py-1 md:px-[10%] bg-black bg-opacity-50"> {/* bg-black bg-opacity-10 */}
                 <div className="pointer-events-auto flex items-center">
                     <Link href={"/"}>
                         <span className="font-kanit font-black italic text-2xl">XURRO</span>
