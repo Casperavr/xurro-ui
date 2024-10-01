@@ -13,7 +13,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
       <body className={`font-kanit font-black italic antialiased h-full`}>
         <Header />
 
-        <main className="relative z-0 overflow-auto pt-12 h-full">
+        <main className="z-0 overflow-hidden">
           {children}
         </main>
 
