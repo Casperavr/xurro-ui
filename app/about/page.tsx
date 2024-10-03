@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "XURRO | About us",
-    description: "About us",
+    title: "XURRO | Over ons",
+    description: "Over ons",
   };
 
 
@@ -12,7 +12,7 @@ export default function AboutPage () {
     return(
         <>
             <div className="mt-36 px-6 md:px-[10%]">
-                <h1 className="text-2xl flex">ABOUT US</h1>
+                <h1 className="text-2xl flex">Over ons</h1>
 
                 <div className="flex justify-between mb-36 mt-12">
                     <div className="flex flex-col w-full font-bold tracking-wide leading-7">

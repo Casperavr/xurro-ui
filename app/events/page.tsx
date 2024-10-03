@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import CollabComponent from "../components/collabs";
+import ContactForm from "../components/contactForm";
 
 export const metadata: Metadata = {
     title: "XURRO | Events",
@@ -15,15 +16,11 @@ export default function EventsPage() {
 
                 <div className="flex flex-col md:flex-row justify-between mb-36 mt-12">
                     <div className="flex flex-col md:w-5/12 font-bold tracking-wide leading-7">
-                        <p className="mb-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, provident? Molestias, consequuntur voluptatum libero excepturi perspiciatis, fuga nesciunt incidunt fugit dolorem soluta magnam repellendus blanditiis itaque officiis. Ipsum, neque quo?</p>
-                        <p className="mb-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, provident? Molestias, consequuntur voluptatum libero excepturi perspiciatis, fuga nesciunt incidunt fugit dolorem soluta magnam repellendus blanditiis itaque officiis. Ipsum, neque quo?</p>
+                        <p className="mb-8">Wil jij nou ook ons gelletje op jouw festival verkopen? Voor samenwerkingen kun je contact opnemen via het contactformulier hiernaast.</p>
+                        <p className="mb-8">Hier onder zie je de festivals waar je ons al op kunt verwachten.</p>
                     </div>
 
-                    <div className="md:w-5/12">
-                        <div className="md:mr-12 py-12 h-3/4 flex justify-center items-center border">
-                            <p>IMAGE</p>
-                        </div>
-                    </div>
+                    <ContactForm />
                 </div>
 
             </div>

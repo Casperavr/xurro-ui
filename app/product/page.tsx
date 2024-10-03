@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import ProductImage from "../components/productImage";
 
 export const metadata: Metadata = {
     title: "XURRO | Product",
@@ -28,11 +29,7 @@ export default function ProductPage () {
                         </p>
                     </div>
 
-                    <div className="md:w-5/12 w-full">
-                        <div className="md:mr-12 py-12 h-3/4 flex justify-center items-center border">
-                            <p>IMAGE</p>
-                        </div>
-                    </div>
+                    <ProductImage />
                 </div>
 
             </div>

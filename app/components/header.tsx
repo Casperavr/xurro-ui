@@ -24,7 +24,7 @@ export default function Header() {
                         EVENTS
                     </Link>
                     <Link className="pointer-events-auto transform transition duration-500 hover:scale-150" href={"/about"}>
-                        ABOUT US
+                        OVER ONS
                     </Link>
                     <Link className="pointer-events-auto transform transition duration-500 hover:scale-150" href={"/faq"}>
                         FAQ
@@ -46,7 +46,7 @@ export default function Header() {
 
                 <div className="pointer-events-auto fixed top-12 z-50 flex h-12 max-h-12 w-full items-center justify-between px-6 py-1 md:px-[10%]">
                     <div className="pointer-events-auto flex items-center">
-                        <Link href={"/"}>
+                        <Link onClick={toggleNav} href={"/"}>
                             <span className="font-kanit font-black italic text-2xl">XURRO</span>
                         </Link>
                     </div>
@@ -73,7 +73,7 @@ export default function Header() {
                         EVENTS
                     </Link>
                     <Link onClick={toggleNav} className="pointer-events-auto" href={"/about"}>
-                        ABOUT US
+                        OVER ONS
                     </Link>
                     <Link onClick={toggleNav} className="pointer-events-auto" href={"/faq"}>
                         FAQ

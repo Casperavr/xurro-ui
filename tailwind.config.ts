@@ -11,7 +11,8 @@ const config: Config = {
       animation:{
         vibrate: "vibrate 20s linear infinite",
         popin: "popin 1.3s ease-in-out",
-        rotate: "rotate 1.2s ease-in-out",
+        rotate: "rotate 1.2s ease-out",
+        pop: "pop 1.3s ease-in-out",
       },
       colors: {
         background: "var(--background)",
