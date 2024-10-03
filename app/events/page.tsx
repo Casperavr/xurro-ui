@@ -17,7 +17,7 @@ export default function EventsPage() {
                 <div className="flex flex-col md:flex-row justify-between mb-36 mt-12">
                     <div className="flex flex-col md:w-5/12 font-bold tracking-wide leading-7">
                         <p className="mb-8">Wil jij nou ook ons gelletje op jouw festival verkopen? Voor samenwerkingen kun je contact opnemen via het contactformulier hiernaast.</p>
-                        <p className="mb-8">Hier onder zie je de festivals waar je ons al op kunt verwachten.</p>
+                        <p className="mb-8">Hieronder zie je de festivals waar je ons al op kunt verwachten.</p>
                     </div>
 
                     <ContactForm />

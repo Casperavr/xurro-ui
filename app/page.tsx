@@ -19,7 +19,7 @@ export default function HomePage () {
 
             <div className="h-1/2 md:px-[2%] mx-auto py-3 bg-[#111]">
                 <h1 className="text-sm mb-6 font-semibold px-6 md:px-[8%]">COLLABS</h1>
-                <p className="text-sm mb-6 font-semibold px-6 md:px-[8%]">Hier onder zie je de festivals waar je ons al op kunt verwachten.</p>
+                <p className="text-sm mb-6 font-semibold px-6 md:px-[8%]">Hieronder zie je de festivals waar je ons al op kunt verwachten.</p>
 
                 <CollabComponent/>
             </div>
