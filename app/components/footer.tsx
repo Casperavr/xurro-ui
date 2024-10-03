@@ -28,7 +28,7 @@ export default function Footer() {
 
     return(
         <>
-            <div className="h-1/2 px-6 py-3 md:px-[10%] w-full flex flex-col md:flex-row justify-between items-start bg-black">
+            <div className="min-h-1/2 px-6 py-3 md:px-[10%] w-full flex flex-col md:flex-row justify-between items-start bg-black">
 
                 <div className="w-full h-1/2 md:w-1/2 md:h-full font-semibold mt-12">
                     <h1 className="text-sm mb-2">CONTACT</h1>
@@ -65,16 +65,18 @@ export default function Footer() {
                         </a>
                     </div>
 
-                    <h1 className="text-sm mt-12 mb-2">INFO</h1>
-                    <p className="text-xs ml-2">kvk&nbsp;&nbsp;&nbsp; 95084614</p>
-                    <p className="text-xs ml-2">BTW Idenditificatie&nbsp;&nbsp;&nbsp; NL866995006B01</p>
+                    <div className="md:mb-20">
+                        <h1 className="text-sm mt-12 mb-2">INFO</h1>
+                        <p className="text-xs ml-2">kvk&nbsp;&nbsp;&nbsp; 95084614</p>
+                        <p className="text-xs ml-2">BTW Idenditificatie&nbsp;&nbsp;&nbsp; NL866995006B01</p>
+                    </div>
 
                 </div>
 
 
-                <div className="w-full h-1/2 md:w-1/2 md:h-full font-semibold mt-12">
-                    <h1 className="text-sm mb-6 md:text-end">PAGINAS</h1>
-                    <div className="flex flex-col md:justify-end mr-2">
+                <div className="w-full h-1/2 md:w-1/2 md:h-full font-semibold mb-12">
+                    <h1 className="text-sm mb-2 md:text-end mt-12">PAGINAS</h1>
+                    <div className="flex flex-col md:justify-end md:mr-2 ml-2">
                         <Link className="text-sm underline md:text-end text-xs" href={"/"}>HOME</Link>
                         <Link className="text-sm underline md:text-end text-xs" href={"/product"}>PRODUCT</Link>
                         <Link className="text-sm underline md:text-end text-xs" href={"/events"}>EVENTS</Link>
