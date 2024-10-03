@@ -10,28 +10,28 @@ export default function Header() {
     return (
         <>
             <nav className="pointer-events-auto fixed top-12 md:top-0 z-20 flex h-12 md:h-10 max-h-12 w-full items-center justify-between px-6 py-1 md:px-[10%] bg-black bg-opacity-50"> {/* bg-black bg-opacity-10 */}
-                <div className="pointer-events-auto flex items-center">
+                <div className="pointer-events-auto flex items-center transform transition duration-500 hover:scale-150">
                     <Link href={"/"}>
                         <span className="font-kanit font-black italic text-2xl">XURRO</span>
                     </Link>
                 </div>
 
                 <div className="pointer-events-auto hidden items-center gap-8 font-bold text-base md:flex">
-                    <Link className="pointer-events-auto" href={"/product"}>
+                    <Link className="pointer-events-auto transform transition duration-500 hover:scale-150" href={"/product"}>
                         PRODUCT
                     </Link>
-                    <Link className="pointer-events-auto" href={"/events"}>
+                    <Link className="pointer-events-auto transform transition duration-500 hover:scale-150" href={"/events"}>
                         EVENTS
                     </Link>
-                    <Link className="pointer-events-auto" href={"/about"}>
+                    <Link className="pointer-events-auto transform transition duration-500 hover:scale-150" href={"/about"}>
                         ABOUT US
                     </Link>
-                    <Link className="pointer-events-auto" href={"/faq"}>
+                    <Link className="pointer-events-auto transform transition duration-500 hover:scale-150" href={"/faq"}>
                         FAQ
                     </Link>
-                    <button className="pointer-events-auto">
+                    {/* <button className="pointer-events-auto">
                         (LANGUAGE)
-                    </button>
+                    </button> */}
                 </div>
 
                 <button onClick={toggleNav} className={`${navOpen ? "hidden " : ""}md:hidden`}>
@@ -78,9 +78,9 @@ export default function Header() {
                     <Link onClick={toggleNav} className="pointer-events-auto" href={"/faq"}>
                         FAQ
                     </Link>
-                    <button className="pointer-events-auto">
+                    {/* <button className="pointer-events-auto">
                         (LANGUAGE)
-                    </button>
+                    </button> */}
                 </div>
             </div>
         </>
