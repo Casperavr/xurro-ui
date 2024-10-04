@@ -9,7 +9,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
 
 
   return (
-    <html className="h-full" lang="en">
+    <html className="h-full scroll-smooth" lang="en">
       <body className={`font-kanit font-black italic antialiased h-full`}>
         <Header />
 

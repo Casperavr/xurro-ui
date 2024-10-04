@@ -14,7 +14,7 @@ export default function ProductPage () {
             <div className="mt-36 px-6 md:px-[10%]">
                 <h1 className="text-2xl flex">HET PRODUCT</h1>
 
-                <div className="flex md:flex-row flex-col justify-between mb-36 mt-12">
+                <div className="flex md:flex-row flex-col-reverse justify-between mb-36 mt-12">
                     <div className="flex flex-col md:w-5/12 font-bold tracking-wide leading-7">
                         <p className="mb-8">*Energie, verpakt in een gelletje*</p>
                         <p className="mb-8">Op zoek naar een extra boost om het festival tot het einde vol te houden? Onze energiegel geeft je precies wat je nodig hebt. Elk zakje zit boordevol energie, dankzij maltodextrine, een lichtzoet en gemakkelijk verteerbaar koolhydraat dat wordt gewonnen uit zetmeel. Maltodextrine staat bekend om zijn vermogen om snel energie te leveren, waardoor het ideaal is voor wanneer je snel een efficiënte oppepper nodig hebt.</p>
