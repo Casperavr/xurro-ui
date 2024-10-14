@@ -20,7 +20,7 @@ export default function HomePageLogo () {
 
     return(
         <>
-            <button onClick={handleLogoClick} className={`absolute h-auto md:w-auto w-10/12 flex z-10 justify-center overflow-hidden items-center animate-vibrate`}>
+            <button onClick={handleLogoClick} className={`absolute h-[75%] md:w-auto w-10/12 flex z-10 justify-center overflow-hidden items-center animate-vibrate`}>
                 <img className={`${logoClicked ? "animate-rotate " : ""}${onLoad ? "animate-popin " : ""}w-11/12 h-auto md:h-1/2 md:w-auto`} src="../xurro-transparant.webp" alt="Homepage transparent xurro logo" />
             </button>
         </>
