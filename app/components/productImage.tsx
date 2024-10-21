@@ -20,7 +20,7 @@ export default function ProductImage() {
 
     return(
         <button onClick={handleProductClick} className="md:w-5/12 w-full md:mr-12 py-12 h-3/4 flex justify-center items-center bg-[#111] rounded-3xl animate-vibrate mb-[5%]">
-            <img className={`${logoClicked ? "animate-pop " : ""}${onLoad ? "animate-popin " : ""}h-[95%]`} src="../xurro-product.png"/>
+            <img className={`${logoClicked ? "animate-pop " : ""}${onLoad ? "animate-popin " : ""}h-[95%]`} src="../product-xurro.png"/>
         </button>
     )
 }
